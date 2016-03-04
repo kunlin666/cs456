@@ -1,0 +1,14 @@
+Run instruction 
+1. Use make to compile all java class.
+2. run sender, receiver and nEmulator in three different terminal window
+
+3.  host1:  nEmulator 9991 host2 9994 9993 host3 9992 1 0.2 0
+	host2: java receiver host1 9993 9994 <output File>
+	host3: java sender host1 9991 9992 <input file>
+
+4. log file will generate in current directory
+
+5. use make clean to rm all .class and .log in current directory
+
+
+Prog is written in Java and compile by javac in ubuntu1204-006 undergrad server.

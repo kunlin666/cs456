@@ -1,0 +1,16 @@
+#README
+
+Makefile:
+	use make to compile the progame
+	use make clean to remove all executables
+
+Run:
+	To run the progame, you need two terminal windows, one for server, one for client.
+	server: java server 
+	client: java client  <host1/server address>  <n_port>  "some string"
+
+undergrad  machines:
+	ubuntu1204-004
+
+compiler:
+	javac
